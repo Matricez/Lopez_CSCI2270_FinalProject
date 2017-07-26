@@ -30,7 +30,7 @@ class PlanetGraph
         PlanetGraph();
         ~PlanetGraph();
         void addEdge(T v1, T v2, int weight);
-        void addVertex(T name);
+        void addVertex(T name);s
         void displayEdges();
 
 
