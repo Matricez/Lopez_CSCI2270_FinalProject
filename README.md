@@ -48,6 +48,14 @@ Lorenzo Lopez
 Issues/Bugs:
 Well the project has a lot more potential so the bugs didn't really come out as not a lot of testing was done.
 
+CODE CITATIONS:
+
+I have code used from my past assignments, code from Shirly Montero-Quesdada that was given to us to use in lecture, and code that I wrote myself in this project.
+
+
+
+Thank you!
+
 
 
 
