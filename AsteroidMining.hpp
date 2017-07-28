@@ -1,6 +1,11 @@
+/*
+*CSCI2270SU17 CS2:Data Structures
+*Author: Lorenzo Lopez
+*Date: July 28, 2017
+*C++ Final Project
+*/
 #ifndef ASTEROIDMINING_HPP
 #define ASTEROIDMINING_HPP
-//#include "MovieTree.cpp"
 #include <string>
 #include <iostream>
 #include <vector>
@@ -18,6 +23,9 @@ struct adjVertex{
 
 template<class T>
 struct vertex{
+    bool visited;
+    int distance;
+    vertex *previous;
     T name;
     vector<adjVertex<T>> adj;
 };
@@ -30,8 +38,10 @@ class PlanetGraph
         PlanetGraph();
         ~PlanetGraph();
         void addEdge(T v1, T v2, int weight);
-        void addVertex(T name);s
+        void addVertex(T name);
         void displayEdges();
+        void DisplayGameMenu();
+        void Dijkstra(string starting, string destination);
 
 
     //protected:
@@ -52,7 +62,8 @@ struct Resources{
       previous(initPrevious){} */
 };
 
-class PlanetResourcesLL
+//Ran out of time to implement Linked List resources
+/*class PlanetResourcesLL
 {
     public:
         PlanetResourcesLL();
@@ -63,7 +74,6 @@ class PlanetResourcesLL
         void printResources();
         void deleteResource(std::string removeCity);
         void deleteAllResources();
-        void DisplayGameMenu();
         void displayResourcesMenu();
     protected:
     private:
@@ -71,7 +81,7 @@ class PlanetResourcesLL
         Resources *tail;
 };
 
-
+*/
 
 
 
