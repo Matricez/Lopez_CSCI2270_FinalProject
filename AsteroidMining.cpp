@@ -84,8 +84,8 @@ PlanetResourcesLL::~PlanetResourcesLL()
 {
 
 }*/
-template<class T>
-void PlanetGraph<T>::Dijkstra(string starting, string destination){
+//template<class T>
+/*void PlanetGraph<T>::Dijkstra(string starting, string destination){
 
     vertex<T> * start = nullptr;
     vertex<T> * ending = nullptr;
@@ -167,7 +167,7 @@ void PlanetGraph<T>::Dijkstra(string starting, string destination){
     exit(1);
   }
 }
-
+*/
 
 template<class T>
 void PlanetGraph<T>::DisplayGameMenu(){
@@ -203,8 +203,8 @@ void PlanetGraph<T>::DisplayGameMenu(){
                cin >> planet1;
                cout << "Name of second planet: " << endl;
                cin >> planet2;
-
-               Dijkstra(planet1, planet2);
+                cout << "The shortest path is ///Dijkstra's algorithm goes here /// " << "Million miles" << endl;
+               //Dijkstra(planet1, planet2);
 
                //cin >> choice2;
                /* use dijkstra's algorithm to find the shortest path between any two planets
